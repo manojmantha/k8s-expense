@@ -1,3 +1,4 @@
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -17,7 +18,7 @@ spec:
       project: expense
   template:
     metadata:
-      labels: 
+      labels:
         app: mysql
         tier: mysql
         project: expense
